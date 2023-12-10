@@ -5,6 +5,3 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-function backclick() {
-  window.open("index.html","_self")
-}
