@@ -368,7 +368,7 @@ summary::-webkit-details-marker {
 
 article {
   display: flex;
-  width: 15rem;
+  width: 16rem;
   justify-content: flex-start;
   gap: 0.5rem;
 }
