@@ -4,3 +4,7 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+function backclick() {
+  window.open("index.html","_self")
+}

@@ -345,7 +345,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -357,6 +357,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 10rem;
 }
 
 .color-container {
@@ -366,8 +367,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 .project-title {
@@ -380,6 +381,10 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.next {
+  width: 10%;
+  height: 10%;
+}
 /* CONTACT */
 
 #contact {
@@ -429,4 +434,10 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Data Analysis */
+.back {
+  width: 40px;
+  height: 40px;
 }
