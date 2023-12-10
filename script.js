@@ -5,3 +5,6 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+function goBack() {
+  window.history.back();
+  }
