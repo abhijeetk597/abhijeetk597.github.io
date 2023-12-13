@@ -32,7 +32,9 @@ nav,
 .nav-links {
   display: flex;
 }
-
+.nav-links:hover {
+  cursor: pointer;
+}
 nav {
   justify-content: space-around;
   align-items: center;
@@ -406,8 +408,13 @@ article .icon {
 }
 
 .next {
+  cursor:pointer;
   width: 10%;
   height: 10%;
+  transition: all 0.3 ease-in-out;
+}
+
+.next:hover {
 }
 /* CONTACT */
 
@@ -465,3 +472,105 @@ footer p {
   width: 40px;
   height: 40px;
 }
+
+/* Project Pages */
+.navbar{
+  position: fixed; /* Fix the navbar position */
+  top: 0; /* Align to the top */
+  width: 100%; /* Occupy full width */
+  background-color: rgb(181, 181, 181); /* Background color */
+  padding: 15px 0; /* Add padding */
+}
+
+.page_h {
+  margin-left: 10vw;
+  color: white;
+}
+
+*/
+
+#project {
+  position: relative;
+}
+
+.project_title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project-container {
+  justify-content: space-between;
+  justify-items: stretch;
+  padding: 1rem;
+  display: flex;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+}
+
+.text-and-buttons {
+  padding-left: 1rem;
+  display: flex;
+  justify-content:stretch;
+  flex-direction: column;
+}
+
+.project-text-container {
+  display: flex;
+  justify-content:start;
+  flex-direction: column;
+  text-align:justify;
+}
+
+.project-text {
+  color: rgb(53, 53, 53);
+}
+
+.project-pic {
+  border-radius: 1rem;
+  width: 500px;
+}
+
+.project-pic-container {
+  margin: auto 0;
+  display: flex;
+  width: 500 px;
+  height: auto;
+}
+.tools {
+  display: flex;
+}
+.t1, .t2 {
+  display: inline;
+  justify-self: flex-end;
+}
+.t1 {
+  color: rgb(85, 85, 85);
+}
+
+.pro-btn-container {
+  padding-top: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ 
+.btn-color-3 {
+  padding: 10px;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  background: none;
+  margin: 5px;
+}
+
+.btn-color-3:hover {
+  cursor: pointer;
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
