@@ -475,16 +475,34 @@ footer p {
 
 /* Project Pages */
 .navbar{
+  display: flex;
   position: fixed; /* Fix the navbar position */
   top: 0; /* Align to the top */
   width: 100%; /* Occupy full width */
   background-color: rgb(181, 181, 181); /* Background color */
   padding: 15px 0; /* Add padding */
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .page_h {
   margin-left: 10vw;
   color: white;
+  cursor: default;
+}
+
+.home_link {
+  padding-bottom:1vh;
+  margin-right: 10vw;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.home_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
 }
 
 */
@@ -496,6 +514,8 @@ footer p {
 .project_title {
   font-size: 2rem;
   text-align: center;
+  padding-bottom: 10px;
+  margin-top: 4vh;
 }
 
 .project-container {
