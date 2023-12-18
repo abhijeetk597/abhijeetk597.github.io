@@ -128,4 +128,16 @@
   .project-text-container {
     text-align: justify;
   }
+  .page_h,
+  .home_link {
+    font-size: 1.25rem;
+  }
+  .home_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+  .project_title {
+    font-size: 1.5rem;
+  }
 }
