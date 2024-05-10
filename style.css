@@ -614,6 +614,7 @@ footer p {
   width: 450px;
   height: auto;
 }
+.certificate:hover,
 #certificate:hover {
   cursor: pointer;
   border: rgb(255, 255, 255) 0.1rem solid;
