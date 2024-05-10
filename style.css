@@ -151,11 +151,11 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 12vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  /* min-height: fit-content; */
 }
 
 .section-container {
@@ -383,8 +383,8 @@ article .icon {
 
 #projects {
   position: relative;
-  margin-top: 10rem;
-  padding-top: 15vh;
+  /* margin-top: 10rem;
+  padding-top: 15vh; */
 }
 
 .color-container {
@@ -594,3 +594,23 @@ footer p {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
+/* Certifications */
+.grid-container {
+  display: grid;
+  padding-left: 10%;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 15px; */
+  grid-auto-flow: dense;
+}
+.certificate {
+  width: 100%;
+  height: auto;
+}
+#certificate {
+  width: 450px;
+  height: auto;
+}
